@@ -5,9 +5,9 @@
 ;; strcmp.asm
 ;;
 
-    GLOBAL  strcmp:function
+GLOBAL  strcmp:function
 
-    section .text
+section .text
 
 strcmp:
     xor     rcx, rcx

@@ -5,9 +5,9 @@
 ;; strlen.asm
 ;;
 
-    global strlen:function
+GLOBAL strlen:function
 
-    section .text
+section .text
 
 strlen:
     XOR rax, rax
