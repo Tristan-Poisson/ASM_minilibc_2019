@@ -2,14 +2,14 @@
 ;; EPITECH PROJECT, 2020
 ;; ASM_minilibc_2019
 ;; File description:
-;; strcmp.asm
+;; strncmp.asm
 ;;
 
-    GLOBAL  strcmp:function
+    GLOBAL  strncmp:function
 
     section .text
 
-strcmp:
+strncmp:
     xor     rcx, rcx
     xor     r10, r10
     xor     r11, r11
