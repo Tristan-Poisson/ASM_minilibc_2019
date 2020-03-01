@@ -16,8 +16,9 @@ NAME		= libasm.so
 
 SRCS_DIR	= src/
 SRCS_FILES	= strlen.asm		\
-#		  strcmp.asm		\
+		  strcmp.asm		\
 		  strncmp.asm		\
+#		  strstr.asm	\
 		  strcasecmp.asm	\
 		  strchr.asm		\
 		  strcspn.asm		\
